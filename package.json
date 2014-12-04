@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "description": "Use recent versions of Pivotal's jasmine-ajax with Karma",
   "main": "main.js",
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/bornkiller/karma-jasmine-ajax-strudel.git"
+    "url": "git://github.com/applestrudel/karma-jasmine-ajax-strudel.git"
   },
   "keywords": [
     "karma-plugin",
@@ -20,5 +21,8 @@
   },
   "license": "MIT",
   "bugs": {},
-  "homepage": "https://github.com/bornkiller/karma-jasmine-ajax-strudel"
+  "homepage": "https://github.com/applestrudel/karma-jasmine-ajax-strudel",
+  "devDependencies": {
+    "jasmine-ajax": "^2.99.0"
+  }
 }
